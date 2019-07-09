@@ -40,8 +40,6 @@ def main():
         engines=None
     )
 
-    # valid_file = open('valid_subdomains.txt', 'w+')
-    # invalid_file = open('valid_subdomains.txt', 'w+')
     found_subdomains = open('found_subdomains.txt', 'w+')
 
     valid_subdomains = []
@@ -61,7 +59,7 @@ def main():
     for valid in valid_subdomains:
         found_subdomains.write(valid + "\n")
 
-    found_subdomains.write("\ninvalid Subdomains")
+    found_subdomains.write("\nInvalid Subdomains\n\n")
     for invalid in invalid_subdomains:
         found_subdomains.write(invalid + "\n")
 
