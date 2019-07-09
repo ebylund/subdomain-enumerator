@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+invalid_subdomains.txt
+valid_subdomains.txt
+found_subdomains.txt
