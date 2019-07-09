@@ -1,7 +1,10 @@
-# Subdomain Finder
+# Subdomain Enumerator
 
 A simple commandline subdomain finder that leverages the open source tool: [Sublist3r](https://github.com/aboul3la/Sublist3r)
 and saves the results to a file. 
+
+## How to run
+`./venv/bin/python main.py`
 
 ## Methods Used
 The main method used to find subdomains is enumeration using search engines and several DNS lookup tools.
