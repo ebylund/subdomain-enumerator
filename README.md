@@ -1,6 +1,6 @@
 # Subdomain Finder
 
-A simple commandline subdomain finder that leverages [Sublist3r](https://github.com/aboul3la/Sublist3r)
+A simple commandline subdomain finder that leverages the open source tool: [Sublist3r](https://github.com/aboul3la/Sublist3r)
 and saves the results to a file. 
 
 ## Methods Used
